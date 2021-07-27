@@ -10,7 +10,7 @@ Like any other modern computer system, HACK computer system runs programs writte
 
 ## How does it work?
 
-The HACK assembler is written in [Go](https://golang.org/). To build the assembler, run the usually build command.
+The HACK assembler is written in [Go](https://golang.org/). To build the assembler, run the usual build command.
 
 ```shell
 go build
@@ -22,5 +22,5 @@ Then run the assembler with the provided HACK assembly source code.
 ./hack-assembler -infile draw.asm
 ```
 
-A HACK machine binary file is called `draw.hack` is created and the file can be loaded into the [CPU Emulator](https://www.nand2tetris.org/software) and run. That's it!
+A HACK machine binary file `draw.hack` is created and the file can be loaded into the [CPU Emulator](https://www.nand2tetris.org/software) and executed by the HACK CPU. That's it!
 
